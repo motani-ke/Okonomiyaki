@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedCalc/StartCollectionViewCell.swift"
+            timestampString = "497193325.259648"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCalc.StartCollectionViewCell.__deallocating_deinit"
+                  moduleName = "SpeedCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anikaido/Hobby/swift/SpeedNumber/SpeedCalc/StartCollectionViewCell.swift"
+                  timestampString = "497197008.181204"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCalc.StartCollectionViewCell.init (frame : __C.CGRect) -&gt; SpeedCalc.StartCollectionViewCell"
+                  moduleName = "SpeedCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anikaido/Hobby/swift/SpeedNumber/SpeedCalc/StartCollectionViewCell.swift"
+                  timestampString = "497197008.182968"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedCalc.StartCollectionViewCell.__allocating_init (frame : __C.CGRect) -&gt; SpeedCalc.StartCollectionViewCell"
+                  moduleName = "SpeedCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anikaido/Hobby/swift/SpeedNumber/SpeedCalc/StartCollectionViewCell.swift"
+                  timestampString = "497197008.184795"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

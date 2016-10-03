@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2450DF101D981D8900D190D1 /* NumButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DF0F1D981D8900D190D1 /* NumButton.swift */; };
+		2450DF181D9974CF00D190D1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DF171D9974CF00D190D1 /* StartViewController.swift */; };
+		2450DF1E1D9BF7C400D190D1 /* StartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DF1D1D9BF7C400D190D1 /* StartCollectionViewCell.swift */; };
+		2450DF201D9BF7D700D190D1 /* StartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2450DF1F1D9BF7D700D190D1 /* StartCollectionViewCell.xib */; };
+		2450DF221D9C09B400D190D1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DF211D9C09B400D190D1 /* ResultViewController.swift */; };
+		2450DF241D9C208200D190D1 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DF231D9C208200D190D1 /* ResultViewModel.swift */; };
 		247277171D96982B00DBC2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247277161D96982B00DBC2DA /* AppDelegate.swift */; };
 		247277191D96982B00DBC2DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247277181D96982B00DBC2DA /* ViewController.swift */; };
 		2472771C1D96982B00DBC2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2472771A1D96982B00DBC2DA /* Main.storyboard */; };
 		2472771E1D96982B00DBC2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2472771D1D96982B00DBC2DA /* Assets.xcassets */; };
 		247277211D96982B00DBC2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2472771F1D96982B00DBC2DA /* LaunchScreen.storyboard */; };
+		247277351D96A98000DBC2DA /* CalcType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247277341D96A98000DBC2DA /* CalcType.swift */; };
+		3C57E26417946E744ECF9A40 /* Pods_SpeedCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698226CDCE1B215F0FC00E7A /* Pods_SpeedCalc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2450DF0F1D981D8900D190D1 /* NumButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumButton.swift; sourceTree = "<group>"; };
+		2450DF171D9974CF00D190D1 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		2450DF1D1D9BF7C400D190D1 /* StartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCollectionViewCell.swift; sourceTree = "<group>"; };
+		2450DF1F1D9BF7D700D190D1 /* StartCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartCollectionViewCell.xib; sourceTree = "<group>"; };
+		2450DF211D9C09B400D190D1 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		2450DF231D9C208200D190D1 /* ResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 		247277131D96982B00DBC2DA /* SpeedCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247277161D96982B00DBC2DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		247277181D96982B00DBC2DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,10 @@
 		2472771D1D96982B00DBC2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		247277201D96982B00DBC2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247277221D96982B00DBC2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247277341D96A98000DBC2DA /* CalcType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcType.swift; sourceTree = "<group>"; };
+		50164F34944CB0AF36864098 /* Pods-SpeedCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedCalc.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedCalc/Pods-SpeedCalc.release.xcconfig"; sourceTree = "<group>"; };
+		698226CDCE1B215F0FC00E7A /* Pods_SpeedCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C164AAB8396CDF640800D5D /* Pods-SpeedCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedCalc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedCalc/Pods-SpeedCalc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C57E26417946E744ECF9A40 /* Pods_SpeedCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				247277151D96982B00DBC2DA /* SpeedCalc */,
 				247277141D96982B00DBC2DA /* Products */,
+				744489782478FD00DFC3892F /* Pods */,
+				E4467160FAE311E7DB9550AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +81,32 @@
 				2472771D1D96982B00DBC2DA /* Assets.xcassets */,
 				2472771F1D96982B00DBC2DA /* LaunchScreen.storyboard */,
 				247277221D96982B00DBC2DA /* Info.plist */,
+				247277341D96A98000DBC2DA /* CalcType.swift */,
+				2450DF0F1D981D8900D190D1 /* NumButton.swift */,
+				2450DF171D9974CF00D190D1 /* StartViewController.swift */,
+				2450DF1D1D9BF7C400D190D1 /* StartCollectionViewCell.swift */,
+				2450DF1F1D9BF7D700D190D1 /* StartCollectionViewCell.xib */,
+				2450DF211D9C09B400D190D1 /* ResultViewController.swift */,
+				2450DF231D9C208200D190D1 /* ResultViewModel.swift */,
 			);
 			path = SpeedCalc;
+			sourceTree = "<group>";
+		};
+		744489782478FD00DFC3892F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C164AAB8396CDF640800D5D /* Pods-SpeedCalc.debug.xcconfig */,
+				50164F34944CB0AF36864098 /* Pods-SpeedCalc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4467160FAE311E7DB9550AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				698226CDCE1B215F0FC00E7A /* Pods_SpeedCalc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 247277251D96982B00DBC2DA /* Build configuration list for PBXNativeTarget "SpeedCalc" */;
 			buildPhases = (
+				542DE653A776F21E6CDD8D7A /* [CP] Check Pods Manifest.lock */,
 				2472770F1D96982B00DBC2DA /* Sources */,
 				247277101D96982B00DBC2DA /* Frameworks */,
 				247277111D96982B00DBC2DA /* Resources */,
+				60DA8DB50AF058F5B44C31E0 /* [CP] Embed Pods Frameworks */,
+				488D685B445FE27A439C4632 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247277211D96982B00DBC2DA /* LaunchScreen.storyboard in Resources */,
+				2450DF201D9BF7D700D190D1 /* StartCollectionViewCell.xib in Resources */,
 				2472771E1D96982B00DBC2DA /* Assets.xcassets in Resources */,
 				2472771C1D96982B00DBC2DA /* Main.storyboard in Resources */,
 			);
@@ -132,13 +181,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		488D685B445FE27A439C4632 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedCalc/Pods-SpeedCalc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542DE653A776F21E6CDD8D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60DA8DB50AF058F5B44C31E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedCalc/Pods-SpeedCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2472770F1D96982B00DBC2DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247277351D96A98000DBC2DA /* CalcType.swift in Sources */,
+				2450DF1E1D9BF7C400D190D1 /* StartCollectionViewCell.swift in Sources */,
 				247277191D96982B00DBC2DA /* ViewController.swift in Sources */,
+				2450DF241D9C208200D190D1 /* ResultViewModel.swift in Sources */,
+				2450DF101D981D8900D190D1 /* NumButton.swift in Sources */,
 				247277171D96982B00DBC2DA /* AppDelegate.swift in Sources */,
+				2450DF181D9974CF00D190D1 /* StartViewController.swift in Sources */,
+				2450DF221D9C09B400D190D1 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +360,14 @@
 		};
 		247277261D96982B00DBC2DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C164AAB8396CDF640800D5D /* Pods-SpeedCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3W8Y84K3LZ;
 				INFOPLIST_FILE = SpeedCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amanen.SpeedCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanen.SpeedNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,12 +375,14 @@
 		};
 		247277271D96982B00DBC2DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50164F34944CB0AF36864098 /* Pods-SpeedCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3W8Y84K3LZ;
 				INFOPLIST_FILE = SpeedCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amanen.SpeedCalc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanen.SpeedNumber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -300,6 +407,7 @@
 				247277271D96982B00DBC2DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
